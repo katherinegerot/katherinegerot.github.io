@@ -5498,7 +5498,7 @@ function(e, t, n, r, i, o) {
         }
     }), requirejs(["wdn", "require", "main-execute-mods", "main-wdn-plugins"], function(e, t) {
         e.loadJQuery(function() {
-            t(["https://www.ne-ltap.org/images/neltap/Template/2019/js/assets.js" /* + e.getHTMLVersion() */], function() {})
+            t(["https://katherinegerot.github.io/images/neltap/Template/2019/js/assets.js"  + e.getHTMLVersion() ], function() {})
         })
     }), define("main", function() {}),
     function(e) {
