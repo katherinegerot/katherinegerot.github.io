@@ -783,6 +783,11 @@ a.unl-cream:link {
 	.unl .dcf-search-toggle-wrapper {
 		display: none
 	}
+	
+	.unl .dcf-header .dcf-institution-title {
+		text-decoration: none;
+	}
+		
 }
 
 @media only screen and (min-width:56.12em) {
