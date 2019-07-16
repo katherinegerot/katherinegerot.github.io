@@ -3261,10 +3261,10 @@ button .dcf-icon {
 	padding-top: .42em
 }
 
-.unl .dcf-footer a,
-.unl .dcf-footer a:active,
-.unl .dcf-footer a:link,
-.unl .dcf-footer a:visited {
+.dcf-footer a,
+.dcf-footer a:active,
+.dcf-footer a:link,
+.dcf-footer a:visited {
 	color: #fefdfa;
 	text-decoration: none
 }
