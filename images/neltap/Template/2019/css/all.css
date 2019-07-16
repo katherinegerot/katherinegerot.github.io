@@ -3242,6 +3242,15 @@ button .dcf-icon {
 	text-transform: uppercase
 }
 
+.dcf-footer h2 {
+	color: #fefdfa;
+	font-size: 1em;
+	letter-spacing: .06em;
+	line-height: 1.33;
+	text-transform: uppercase
+}
+
+
 .unl .dcf-footer dl,
 .unl .dcf-footer ol,
 .unl .dcf-footer ul {
