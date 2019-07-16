@@ -784,7 +784,7 @@ a.unl-cream:link {
 		display: none
 	}
 	
-	.unl .dcf-header .dcf-institution-title {
+	.dcf-header .dcf-institution-title {
 		text-decoration: none;
 	}
 		
@@ -899,7 +899,7 @@ a.unl-cream:link {
 	.unl .dcf-txt-h1 {
 		font-size: 2.37em!important
 	}
-	.unl .dcf-header .dcf-institution-title {
+	.dcf-header .dcf-institution-title {
 		text-decoration: none;
 	}
 }
