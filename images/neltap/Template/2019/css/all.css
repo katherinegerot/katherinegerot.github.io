@@ -3221,6 +3221,10 @@ button .dcf-icon {
 	background-color: #d00000!important
 }
 
+.dcf-footer {
+	background-color: #d00000
+}
+
 .unl-footer-stripe:before {
 	background-image: -webkit-linear-gradient(bottom, rgba(208, 0, 0, 0) 3px, #d00000 0, #d00000 5px, rgba(208, 0, 0, 0) 0);
 	background-image: linear-gradient(0deg, rgba(208, 0, 0, 0) 3px, #d00000 0, #d00000 5px, rgba(208, 0, 0, 0) 0);
