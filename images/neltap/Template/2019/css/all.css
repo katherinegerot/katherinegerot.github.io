@@ -3234,14 +3234,6 @@ button .dcf-icon {
 	width: 100%
 }
 
-.unl .dcf-footer h2 {
-	color: #fefdfa;
-	font-size: 1em;
-	letter-spacing: .06em;
-	line-height: 1.33;
-	text-transform: uppercase
-}
-
 .dcf-footer h2 {
 	color: #fefdfa;
 	font-size: 1em;
@@ -3251,9 +3243,9 @@ button .dcf-icon {
 }
 
 
-.unl .dcf-footer dl,
-.unl .dcf-footer ol,
-.unl .dcf-footer ul {
+.dcf-footer dl,
+.dcf-footer ol,
+.dcf-footer ul {
 	list-style: none;
 	margin-bottom: 0;
 	padding-left: 0
