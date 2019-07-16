@@ -899,6 +899,9 @@ a.unl-cream:link {
 	.unl .dcf-txt-h1 {
 		font-size: 2.37em!important
 	}
+	.unl .dcf-header .dcf-institution-title {
+		text-decoration: none;
+	}
 }
 
 .unl .dcf-modal-overlay {
