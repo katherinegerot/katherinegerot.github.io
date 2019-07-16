@@ -3218,7 +3218,7 @@ button .dcf-icon {
 
 .unl .dcf-footer {
 	color: #fefdfa;
-	background-color: #d00000
+	background-color: #d00000!important
 }
 
 .unl-footer-stripe:before {
