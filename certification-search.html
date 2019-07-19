@@ -223,7 +223,7 @@
 						<div class="view-footer">
 							<script>
 								function searchTable() {
-								  var input, txt, t, r, c, i, value;
+								  var input, txt, t, r, c, i, v;
 								  input = document.getElementById("ltap-search-input"); //search box
 								  txt = input.value.toUpperCase(); //input in search box; uppercase to eliminate case sensitivity
 								  table = document.getElementById("ltap-search-table"); //table to search
@@ -233,8 +233,8 @@
 								  for (i = 0; i < r.length; i++) {
 									c = r[i].getElementsByTagName("c")[0]; //columns
 									if (c) {
-									  value = c.textContent || c.innerText;
-									  if (value.toUpperCase().indexOf(txt) > -1) {
+									  v = c.textContent || c.innerText;
+									  if (v.toUpperCase().indexOf(txt) > -1) {
 										r[i].style.display = "";
 									  } else {
 										r[i].style.display = "none";
