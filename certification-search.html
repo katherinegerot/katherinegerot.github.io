@@ -228,10 +228,10 @@
 								  filter = input.value.toUpperCase(); //input in search box; uppercase to eliminate case sensitivity
 								  table = document.getElementById("ltap-search-table"); //table to search
 								  r = table.getElementsByTagName("tr"); //table row
-								  //h = table.getElementsByTagName("th"); //table header
+								  h = table.getElementsByTagName("th"); //table header
 								  // Loop through rows, hide non-matching rows
 								  for (i = 0; i < r.length; i++) {
-									for(j = 0; j < 2; j++)
+									for(j = 0; j < h.length; j++) {
 										c = r[i].getElementsByTagName("td")[j]; //columns
 										if (c) {
 										  v = c.textContent || c.innerText;
@@ -241,6 +241,7 @@
 											r[i].style.display = "none";
 										  }
 										} 
+									}
 								  }
 								}
 							</script>
