@@ -241,6 +241,9 @@
 										c = r[i].getElementsByTagName("td")[j]; //columns
 										if (c) {
 										  v = c.textContent || c.innerText;
+										  console.log("textContent and innerText:");
+										  console.log(c.textContent);
+										  console.log(c.innerText)
 										  if (v.toUpperCase().indexOf(filter) > -1) {
 											r[i].style.display = "";
 										  } else {
