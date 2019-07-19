@@ -233,12 +233,12 @@
 								  console.log(r.length);
 								  console.log(h.length);
 								  console.log(r[0]);
-								  console.log(r[0].getElementsByTagName("td")[2]);
+								  console.log(r[0].getElementsById("ltap-search-item")[2]);
 								  // Loop through rows, hide non-matching rows
 								  //if(searchType = company) {
 								  for (i = 0; i < r.length; i++) {
 									for(j = 0; j < h.length; j++) {
-										c = r[i].getElementsByTagName("td")[j]; //columns
+										c = r[i].getElementsByTagName("ltap-search-item")[j]; //columns
 										if (c) {
 										  v = c.textContent || c.innerText;
 										  if (v.toUpperCase().indexOf(filter) > -1) {
@@ -280,20 +280,20 @@
 															</thead>
 															<tbody>
 																<tr>
-																	<td>Cras mattis</td>
-																	<td class="dcf-txt-right">Consectetur purus</td>
+																	<td id="ltap-search-item">Cras mattis</td>
+																	<td id="ltap-search-item" class="dcf-txt-right">Consectetur purus</td>
 																</tr>
 																<tr>
-																	<td>Sociis natoque</td>
-																	<td class="dcf-txt-right">Risus eget urna</td>
+																	<td id="ltap-search-item">Sociis natoque</td>
+																	<td id="ltap-search-item" class="dcf-txt-right">Risus eget urna</td>
 																</tr>
 																<tr>
-																	<td>Duis mollis</td>
-																	<td class="dcf-txt-right">Natoque penatibus</td>
+																	<td id="ltap-search-item">Duis mollis</td>
+																	<td id="ltap-search-item" class="dcf-txt-right">Natoque penatibus</td>
 																</tr>
 																<tr>
-																	<td>Nullam quis</td>
-																	<td class="dcf-txt-right">Non commodo luctus</td>
+																	<td id="ltap-search-item">Nullam quis</td>
+																	<td id="ltap-search-item" class="dcf-txt-right">Non commodo luctus</td>
 																</tr>
 															</tbody>
 														</table>
