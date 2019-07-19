@@ -222,28 +222,7 @@
 					<div class="content">
 						<div class="view-footer">
 							<script>
-								function searchTable() {
-									var input, filter, table, r, c, i, j, v, h;
-									input = document.getElementById("ltap-search-input"); //search box
-									filter = input.value.toUpperCase(); //input in search box; uppercase to eliminate case sensitivity
-									table = document.getElementById("ltap-search-table"); //table to search
-									r = table.getElementsByTagName("tr"); //table row
-									h = table.getElementsByTagName("th"); //table header
-									for (i = 0; i < r.length; i++) {
-										for (j = 0; j < h.length; j++) {
-											c = r[i].getElementsByTagName("td")[j]; //columns
-											if (c) {
-												v = c.textContent || c.innerText;
-												if (v.toUpperCase().indexOf(filter) > -1) {
-													r[i].style.display = "";
-													break;
-												} else {
-													r[i].style.display = "none";
-												}
-											}
-										}
-									}
-								}
+								function searchTable(){var k,b,m,a,g,e,d,l,f;k=document.getElementById("ltap-search-input");b=k.value.toUpperCase();m=document.getElementById("ltap-search-table");a=m.getElementsByTagName("tr");f=m.getElementsByTagName("th");for(e=0;e<a.length;e++){for(d=0;d<f.length;d++){g=a[e].getElementsByTagName("td")[d];if(g){l=g.textContent||g.innerText;if(l.toUpperCase().indexOf(b)>-1){a[e].style.display="";break}else{a[e].style.display="none"}}}}};
 							</script>
 							<div id="node-505" class="node node-page">
 								<div class="content">
