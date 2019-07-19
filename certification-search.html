@@ -231,7 +231,7 @@
 								
 								  // Loop through rows, hide non-matching rows
 								  for (i = 0; i < r.length; i++) {
-									c = r[i].getElementsByTagName("c")[0]; //columns
+									c = r[i].getElementsByTagName("td")[0]; //columns
 									if (c) {
 									  v = c.textContent || c.innerText;
 									  if (v.toUpperCase().indexOf(txt) > -1) {
