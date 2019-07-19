@@ -223,36 +223,26 @@
 						<div class="view-footer">
 							<script>
 								function searchTable() {
-								  var input, filter, t, r, c, i, j, v, h;
-								  //searchType = document.getElementById("ltap-search-dropdown").value;
-								  input = document.getElementById("ltap-search-input"); //search box
-								  filter = input.value.toUpperCase(); //input in search box; uppercase to eliminate case sensitivity
-								  table = document.getElementById("ltap-search-table"); //table to search
-								  r = table.getElementsByTagName("tr"); //table row
-								  h = table.getElementsByTagName("th"); //table header
-								  console.log(r.length);
-								  console.log(h.length);
-								  console.log(r[1]);
-								  console.log(r[1].getElementsByTagName("td"));
-								  // Loop through rows, hide non-matching rows
-								  //if(searchType = company) {
-								  for (i = 0; i < r.length; i++) {
-									for(j = 0; j < h.length; j++) {
-										c = r[i].getElementsByTagName("td")[j]; //columns
-										if (c) {
-										  v = c.textContent || c.innerText;
-										  console.log("textContent and innerText:");
-										  console.log(c.textContent);
-										  console.log(c.innerText)
-										  if (v.toUpperCase().indexOf(filter) > -1) {
-											r[i].style.display = "";
-											break;
-										  } else {
-											r[i].style.display = "none";
-										  }
-										} 
+									var input, filter, table, r, c, i, j, v, h;
+									input = document.getElementById("ltap-search-input"); //search box
+									filter = input.value.toUpperCase(); //input in search box; uppercase to eliminate case sensitivity
+									table = document.getElementById("ltap-search-table"); //table to search
+									r = table.getElementsByTagName("tr"); //table row
+									h = table.getElementsByTagName("th"); //table header
+									for (i = 0; i < r.length; i++) {
+										for (j = 0; j < h.length; j++) {
+											c = r[i].getElementsByTagName("td")[j]; //columns
+											if (c) {
+												v = c.textContent || c.innerText;
+												if (v.toUpperCase().indexOf(filter) > -1) {
+													r[i].style.display = "";
+													break;
+												} else {
+													r[i].style.display = "none";
+												}
+											}
+										}
 									}
-								  }
 								}
 							</script>
 							<div id="node-505" class="node node-page">
