@@ -223,23 +223,26 @@
 						<div class="view-footer">
 							<script>
 								function searchTable() {
-								  var input, txt, t, r, c, i, v;
+								  var input, txt, t, r, c, i, j, v, h;
 								  input = document.getElementById("ltap-search-input"); //search box
 								  txt = input.value.toUpperCase(); //input in search box; uppercase to eliminate case sensitivity
 								  table = document.getElementById("ltap-search-table"); //table to search
 								  r = table.getElementsByTagName("tr"); //table row
-								
+								  h = table.getElementsByTagName("th"); //table header
 								  // Loop through rows, hide non-matching rows
 								  for (i = 0; i < r.length; i++) {
-									c = r[i].getElementsByTagName("td")[0]; //columns
-									if (c) {
-									  v = c.textContent || c.innerText;
-									  if (v.toUpperCase().indexOf(txt) > -1) {
-										r[i].style.display = "";
-									  } else {
-										r[i].style.display = "none";
-									  }
-									} 
+									r[i].style.display = "none";
+									for(j = 0; j < h.length; j++)
+										c = r[i].getElementsByTagName("td")[j]; //columns
+										if (c) {
+										  v = c.textContent || c.innerText;
+										  if (v.toUpperCase().indexOf(txt) > -1) {
+											r[i].style.display = "";
+										  } else {
+											r[i].style.display = "none";
+											break;
+										  }
+										} 
 								  }
 								}
 							</script>
