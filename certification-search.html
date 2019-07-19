@@ -224,12 +224,18 @@
 							<script>
 								function searchTable() {
 								  var input, filter, t, r, c, i, j, v, h;
+								  //searchType = document.getElementById("ltap-search-dropdown").value;
 								  input = document.getElementById("ltap-search-input"); //search box
 								  filter = input.value.toUpperCase(); //input in search box; uppercase to eliminate case sensitivity
 								  table = document.getElementById("ltap-search-table"); //table to search
 								  r = table.getElementsByTagName("tr"); //table row
 								  h = table.getElementsByTagName("th"); //table header
+								  console.log(r.length);
+								  console.log(h.length);
+								  console.log(r[0]);
+								  console.log(r[i].getElementsByTagName("td")[j]);
 								  // Loop through rows, hide non-matching rows
+								  if(searchType = company) {
 								  for (i = 0; i < r.length; i++) {
 									for(j = 0; j < h.length; j++) {
 										c = r[i].getElementsByTagName("td")[j]; //columns
@@ -239,7 +245,6 @@
 											r[i].style.display = "";
 										  } else {
 											r[i].style.display = "none";
-											break;
 										  }
 										} 
 									}
@@ -254,6 +259,15 @@
 												<div class="wdn-band">
 													<div class="wdn-inner-wrapper">
 														<p>Search by name or company to find a certified individual</p>
+														<!--
+														<div class="dcf-form-group">
+															<label for="dcf-components-form-institution">Search by..</label>
+															<select id="dcf-components-form-institution ltap-search-dropdown" name="institution">
+																<option value="company" selected="">Company</option>
+																<option value="name">Name</option>
+															</select>
+														</div>
+														-->
 														<div class="dcf-input-group">
 															<input id="ltap-search-input" onkeyup="searchTable()" type="text" placeholder="Search">
 														</div>
