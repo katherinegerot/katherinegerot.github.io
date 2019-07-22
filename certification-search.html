@@ -219,56 +219,52 @@
 			<script>
 				function searchTable(){var k,b,m,a,g,e,d,l,f;k=document.getElementById("ltap-search-input");b=k.value.toUpperCase();m=document.getElementById("ltap-search-table");a=m.getElementsByTagName("tr");f=m.getElementsByTagName("th");for(e=0;e<a.length;e++){for(d=0;d<f.length;d++){g=a[e].getElementsByTagName("td")[d];if(g){l=g.textContent||g.innerText;if(l.toUpperCase().indexOf(b)>-1){a[e].style.display="";break}else{a[e].style.display="none"}}}}};
 			</script>
+			
 			<div class="dcf-main-content dcf-wrapper">
 				<div class="content">
-					<div class="view-content">
-						<div class="content">
-						   <div class="wdn-inner-wrapper">
-							  <p>Search the table below to verify an individual's certification</p>
-							  <div class="dcf-input-group dcf-mb-2">
-								 <input class="dcf-pl-7" id="ltap-search-input" onkeyup="searchTable()" type="text" placeholder="Search">
-							  </div>
-							  <table class="dcf-table" id="ltap-search-table">
-								 <thead>
-									<tr>
-									   <th>Name</th>
-									   <th>Company</th>
-									   <th>Certification(s)</th>
-									   <th>Expiration Date(s)</th>
-									</tr>
-								 </thead>
-								 <tbody>
-									<tr>
-									   <td>John Smith</td>
-									   <td>Company Inc.</td>
-									   <td>NDOT Flagger</td>
-									   <td>7/22/19</td>
-									</tr>
-									<tr>
-									   <td>Jane Doe</td>
-									   <td>Construct Corp</td>
-									   <td>NDOT Flagger<br/>Hazardous Materials Response</td>
-									   <td>8/02/20<br/>7/30/19</td>
-									</tr>
-									<tr>
-									   <td>Lorem Ipsum</td>
-									   <td>Dolor Sit Amet</td>
-									   <td>NDOT Flagger<br/>Hazardous Materials Response</td>
-									   <td>8/02/20<br/>7/30/19</td>
-									</tr>
-									<tr>
-									   <td>Consectetur Adipiscing</td>
-									   <td>Elit, Sed do</td>
-									   <td>NDOT Flagger</td>
-									   <td>7/22/19</td>
-									</tr>
-								 </tbody>
-							  </table>
-						   </div>
-						</div>
+					<p>Search the table below to verify an individual's certification</p>
+					<div class="dcf-input-group dcf-mb-2">
+						<input class="dcf-pl-7" id="ltap-search-input" onkeyup="searchTable()" type="text" placeholder="Search">
 					</div>
+					<table class="dcf-table" id="ltap-search-table">
+						<thead>
+							<tr>
+								<th>Name</th>
+								<th>Company</th>
+								<th>Certification(s)</th>
+								<th>Expiration Date(s)</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>John Smith</td>
+								<td>Company Inc.</td>
+								<td>NDOT Flagger</td>
+								<td>7/22/19</td>
+							</tr>
+							<tr>
+								<td>Jane Doe</td>
+								<td>Construct Corp</td>
+								<td>NDOT Flagger<br/>Hazardous Materials Response</td>
+								<td>8/02/20<br/>7/30/19</td>
+							</tr>
+							<tr>
+								<td>Lorem Ipsum</td>
+								<td>Dolor Sit Amet</td>
+								<td>NDOT Flagger<br/>Hazardous Materials Response</td>
+								<td>8/02/20<br/>7/30/19</td>
+							</tr>
+							<tr>
+								<td>Consectetur Adipiscing</td>
+								<td>Elit, Sed do</td>
+								<td>NDOT Flagger</td>
+								<td>7/22/19</td>
+							</tr>
+						</tbody>
+					</table>
 				</div>
 			</div>
+			
 		</main>
 		
 		<!-- Footer -->
