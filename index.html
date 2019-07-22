@@ -15,8 +15,6 @@
 			<!-- <link rel="stylesheet" href="https://cloud.typography.com/7717652/6968572/css/fonts.css"> -->
 			<link rel="stylesheet" href="https://unlcms.unl.edu/wdn/templates_5.0/css/deprecated.css?dep=5.0.10">
 		</noscript>
-		<!-- <link rel="preload" href="https://ucommchat.unl.edu/assets/css?for=client&v=5" as="style"> -->
-		<!-- <link rel="stylesheet" href="https://unlcms.unl.edu/wdn/templates_5.0/css/print.css?dep=5.0.10" media="print"> -->
 		<script>
 			!function(t){"use strict";t.loadCSS||(t.loadCSS=function(){});var e=loadCSS.relpreload={};if(e.support=function(){var e;try{e=t.document.createElement("link").relList.supports("preload")}catch(t){e=!1}return function(){return e}}(),e.bindMediaToggle=function(t){function e(){t.media=a}var a=t.media||"all";t.addEventListener?t.addEventListener("load",e):t.attachEvent&&t.attachEvent("onload",e),setTimeout(function(){t.rel="stylesheet",t.media="only x"}),setTimeout(e,3e3)},e.poly=function(){if(!e.support())for(var a=t.document.getElementsByTagName("link"),n=0;n<a.length;n++){var o=a[n];"preload"!==o.rel||"style"!==o.getAttribute("as")||o.getAttribute("data-loadcss")||(o.setAttribute("data-loadcss",!0),e.bindMediaToggle(o))}},!e.support()){e.poly();var a=t.setInterval(e.poly,500);t.addEventListener?t.addEventListener("load",function(){e.poly(),t.clearInterval(a)}):t.attachEvent&&t.attachEvent("onload",function(){e.poly(),t.clearInterval(a)})}"undefined"!=typeof exports?exports.loadCSS=loadCSS:t.loadCSS=loadCSS}("undefined"!=typeof global?global:this);
 			function onloadCSS(n,a){function t(){!d&&a&&(d=!0,a.call(n))}var d;n.addEventListener&&n.addEventListener("load",t),n.attachEvent&&n.attachEvent("onload",t),"isApplicationInstalled"in navigator&&"onloadcssdefined"in n&&n.onloadcssdefined(t)}
@@ -56,7 +54,9 @@
 				<a class="dcf-institution-title dcf-flex-shrink-0 dcf-pt-3 dcf-pb-3 dcf-txt-xs unl-ls-3" id="dcf-institution-title" href="https://www.unl.edu/">
 				<span class="dcf-uppercase">University</span> <span class="dcf-italic">of</span><span class="unl-institution-title-ls"> </span><span class="dcf-uppercase">Nebraska&ndash;Lincoln</span>
 				</a>
+				
 				<!-- Log In -->
+				
 				<!-- <nav class="dcf-idm dcf-flex-grow-1 dcf-d-flex dcf-jc-flex-end dcf-h-100% dcf-w-min-0 dcf-d-none@print" id="dcf-idm" role="navigation" aria-label="User Navigation"> -->
 				<!-- <div class="dcf-idm-status-logged-out dcf-idm-toggle dcf-ai-center dcf-relative dcf-header-global-item dcf-w-min-0"> -->
 				<!-- <a class="dcf-idm-login dcf-d-flex dcf-ai-center dcf-jc-center dcf-h-100% dcf-w-100% unl-font-sans" href="https://shib.unl.edu/idp/profile/cas/login?service=https%3A%2F%2Fwww.unl.edu%2F"> -->
@@ -68,8 +68,11 @@
 				<!-- </div> -->
 				<!-- <div class="dcf-idm-status-logged-in dcf-idm-toggle dcf-ai-center dcf-relative dcf-header-global-item dcf-w-min-0"></div> -->
 				<!-- </nav> -->
+				
 				<!-- End Log In -->
+				
 				<!-- Search -->
+				
 				<!-- <div class="dcf-search dcf-header-global-item dcf-flex-grow-1 dcf-d-flex dcf-jc-flex-end dcf-modal-parent dcf-d-none@print" id="dcf-search" role="search"> -->
 				<!-- <div class="dcf-search-toggle-wrapper dcf-ai-center dcf-w-100%"> -->
 				<!-- <button class="dcf-nav-toggle-btn dcf-nav-toggle-btn-search dcf-search-toggle dcf-d-flex dcf-ai-center dcf-jc-between dcf-w-100% dcf-p-0 dcf-txt-2xs dcf-bg-transparent dcf-b-1 dcf-b-solid unl-b-scarlet unl-font-sans unl-scarlet" id="dcf-search-toggle" aria-haspopup="true" aria-expanded="false" aria-label="open search"> -->
@@ -105,6 +108,7 @@
 				<!-- </div> -->
 				<!-- </div> -->
 				<!-- </div> -->
+				
 				<!-- End Search -->
 			</div>
 			<div class="dcf-logo-lockup dcf-wrapper dcf-d-flex dcf-ai-flex-end dcf-relative dcf-overflow-hidden">
@@ -162,6 +166,8 @@
 					</svg>
 					<span class="dcf-nav-toggle-label-menu dcf-mt-1 dcf-txt-2xs">Menu</span>
 				</button>
+				
+				<!-- Mobile Log in and Search -->
 				<button class="dcf-nav-toggle-btn dcf-nav-toggle-btn-search dcf-d-flex dcf-flex-col dcf-ai-center dcf-jc-center dcf-flex-grow-1 dcf-h-9 dcf-p-0 dcf-b-0 dcf-bg-transparent unl-scarlet" id="dcf-mobile-toggle-search" aria-haspopup="true" aria-expanded="false" aria-label="open search">
 					<svg class="dcf-txt-sm dcf-h-6 dcf-w-6 dcf-fill-current" aria-hidden="true" focusable="false" height="16" width="16" viewBox="0 0 24 24">
 						<g id="dcf-nav-toggle-icon-open-search" class="">
@@ -185,6 +191,8 @@
 					</div>
 					<div class="dcf-idm-status-logged-in dcf-relative dcf-h-100% dcf-w-100%" hidden></div>
 				</div>
+				
+				<!-- End Mobile Log in and Search -->
 			</nav>
 			<nav class="dcf-nav-menu dcf-modal-parent unl-font-sans dcf-d-none@print" id="dcf-navigation" role="navigation" aria-label="local navigation">
 				<button class="dcf-nav-toggle-btn dcf-nav-toggle-btn-menu dcf-flex-shrink-0 dcf-ai-center dcf-w-9 dcf-p-0 dcf-b-0 dcf-bg-transparent dcf-txt-xs unl-cream" id="dcf-menu-toggle" hidden>
