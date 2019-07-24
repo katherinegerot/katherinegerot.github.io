@@ -1,6 +1,12 @@
 # template.html
 
 Default Template for the website
+(see @ katherinegerot.github.io/template )
+
+# index.html
+
+Home page
+(see @ katherinegerot.github.io )
 
 # tagged-template.html
 
