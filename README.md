@@ -6,6 +6,6 @@ Default Template for the website
 
 Default Template with areas separated out
 
-#areas.html
+# areas.html
 
 Area names and corresponding code
