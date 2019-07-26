@@ -16,8 +16,8 @@ Default Template with areas separated out
 
 Home Template with areas separated out
 
-# [areas.html](areas.hmtl)
+# Areas
 
-Area names and corresponding code
+Area names and corresponding code:
 
 [Area Reference](info/reference.md)
