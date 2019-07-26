@@ -7,6 +7,7 @@ Any areas I used and their corresponding 5.0 code
 4. [$AC:MENU::TRUE:ul-TNSF:li1:li2:li2:li2:ulE-SF](https://github.com/katherinegerot/katherinegerot.github.io/new/master#acmenutrueul-tnsfli1li2li2li2ule-sf)
 5. [$AC:AREAEX:Footer$](https://github.com/katherinegerot/katherinegerot.github.io/new/master#acareaexfooter)
 6. [$AC:AREAEX:Footer Scripts$](https://github.com/katherinegerot/katherinegerot.github.io/new/master#acareaexfooter-scripts)
+7. [$AC:AREAEX:Home Banner PLC$]()
 
 ## $LC:ISLOGGEDINAREA:Generic Member Area:Generic Login Link-Button$
 
@@ -365,4 +366,103 @@ Any areas I used and their corresponding 5.0 code
 </noscript>
 <script src="https://unlcms.unl.edu/wdn/templates_5.0/js/compressed/all.js?dep=5.0.10" id="wdn_dependents"></script>
 <script type="text/javascript" src="https://extension.unl.edu/js/js_zdTh-ziilR6Zn2iAwVhz2zSLMIv8Cqg03ZioB4sr3OU.js"></script>
+```
+
+## $AC:AREAEX:Home Banner PLC$
+
+```
+<ul class="slides">
+	<!-- Slide 1 -->
+	<li>
+		<div class="content" style="height:500px;background-image:url('/images/flood.png');background-size:cover;background-position: center center;">
+			<div class="wdn-inner-wrapper">
+				<section class="wdn-grid-set">
+					<div style="background-color:rgba(36, 36, 35, .75);" class="bp2-wdn-col-one-half">
+						<div class="featured-promo dcf-p-4">
+							<h2 class="wdn-brand clear-top dcf-txt-h1 dcf-mt-0 dcf-mb-1 unl-cream">Nebraska Flood Resource</h2>
+							<div>
+								<p class="unl-cream">We aim to assist Nebraska Local Public Agencies with information to support their efforts in recovering from the floods of 2019. This resource will continue to evolve as needs are identified and resources are found.</p>
+							</div>
+							<div class="dcf-pt-2">
+								<a href="https://ltap.unl.edu/flood-resources-nebraska-lpas-0" class="wdn-button dcf-btn-secondary">Resources</a>
+							</div>
+						</div>
+					</div>
+					<div class="bp2-wdn-col-one-half">
+						&nbsp;
+					</div>
+				</section>
+			</div>
+		</div>
+	</li>
+	<!-- Slide 2 -->
+	<li>
+		<div class="content" style="height:500px;background-image:url('');background-size:cover;background-position: center center;">
+			<div class="wdn-inner-wrapper">
+				<section class="wdn-grid-set">
+					<div class="bp2-wdn-col-one-half">
+						&nbsp;
+					</div>
+					<div style="background-color:rgba(36, 36, 35, .75);" class="bp2-wdn-col-one-half">
+						<div class="featured-promo dcf-p-4">
+							<h2 class="wdn-brand clear-top dcf-txt-h1 dcf-mt-0 dcf-mb-1 unl-cream">Nebraska Flood Resource</h2>
+							<div>
+								<p class="unl-cream">We aim to assist Nebraska Local Public Agencies with information to support their efforts in recovering from the floods of 2019. This resource will continue to evolve as needs are identified and resources are found.</p>
+							</div>
+							<div class="dcf-pt-2">
+								<a href="https://ltap.unl.edu/flood-resources-nebraska-lpas-0" class="wdn-button dcf-btn-secondary">Resources</a>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+	</li>
+	<!-- Slide 3 -->
+	<li>
+		<div class="content" style="height:500px;background-image:url('');background-size:cover;background-position: center center;">
+			<div class="wdn-inner-wrapper">
+				<section class="wdn-grid-set">
+					<div style="background-color:rgba(36, 36, 35, .75);" class="bp2-wdn-col-one-half">
+						<div class="featured-promo dcf-p-4">
+							<h2 class="wdn-brand clear-top dcf-txt-h1 dcf-mt-0 dcf-mb-1 unl-cream">Nebraska Flood Resource</h2>
+							<div>
+								<p class="unl-cream">We aim to assist Nebraska Local Public Agencies with information to support their efforts in recovering from the floods of 2019. This resource will continue to evolve as needs are identified and resources are found.</p>
+							</div>
+							<div class="dcf-pt-2">
+								<a href="https://ltap.unl.edu/flood-resources-nebraska-lpas-0" class="wdn-button dcf-btn-secondary">Resources</a>
+							</div>
+						</div>
+					</div>
+					<div class="bp2-wdn-col-one-half">
+						&nbsp;
+					</div>
+				</section>
+			</div>
+		</div>
+	</li>
+	<!-- Slide 4 -->
+	<li>
+		<div class="content" style="height:500px;background-image:url('');background-size:cover;background-position: center center;">
+			<div class="wdn-inner-wrapper">
+				<section class="wdn-grid-set">
+					<div class="bp2-wdn-col-one-half">
+						&nbsp;
+					</div>
+					<div style="background-color:rgba(36, 36, 35, .75);" class="bp2-wdn-col-one-half">
+						<div class="featured-promo dcf-p-4">
+							<h2 class="wdn-brand clear-top dcf-txt-h1 dcf-mt-0 dcf-mb-1 unl-cream">Nebraska Flood Resource</h2>
+							<div>
+								<p class="unl-cream">We aim to assist Nebraska Local Public Agencies with information to support their efforts in recovering from the floods of 2019. This resource will continue to evolve as needs are identified and resources are found.</p>
+							</div>
+							<div class="dcf-pt-2">
+								<a href="https://ltap.unl.edu/flood-resources-nebraska-lpas-0" class="wdn-button dcf-btn-secondary">Resources</a>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+	</li>
+</ul>
 ```
