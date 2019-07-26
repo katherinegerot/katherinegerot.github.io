@@ -1,11 +1,13 @@
 # [template.html](template.html)
 
-Full Default Templatee
+Full Default Template
+
 [View](katherinegerot.github.io/template)
 
 # [index.html](index.html)
 
 Full Home page
+
 [View](katherinegerot.github.io)
 
 # [esx-template.html](esx-template.html)
