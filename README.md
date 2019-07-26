@@ -15,3 +15,5 @@ Default Template with areas separated out
 # areas.html
 
 Area names and corresponding code
+
+[Area Reference](info/reference.md)
