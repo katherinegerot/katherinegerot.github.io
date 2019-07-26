@@ -1,18 +1,22 @@
-# template.html
+# [template.html](template.html)
 
-Default Template for the website
-(see @ katherinegerot.github.io/template )
+Full Default Templatee
+[View](katherinegerot.github.io/template)
 
-# index.html
+# [index.html](index.html)
 
-Home page
-(see @ katherinegerot.github.io )
+Full Home page
+[View](katherinegerot.github.io)
 
-# tagged-template.html
+# [esx-template.html](esx-template.html)
 
 Default Template with areas separated out
 
-# areas.html
+# [esx-home.html](esx-home.html)
+
+Home Template with areas separated out
+
+# [areas.html](areas.hmtl)
 
 Area names and corresponding code
 
