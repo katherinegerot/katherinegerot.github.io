@@ -1,13 +1,13 @@
 # Area Reference
 Any areas I used and their corresponding 5.0 code
 
-1. [$LC:ISLOGGEDINAREA:Generic Member Area:Generic Login Link-Button$](https://github.com/katherinegerot/katherinegerot.github.io/new/master#lcisloggedinareageneric-member-areageneric-login-link-button)
-2. [$AC:AREAEX:HeaderSearch$](https://github.com/katherinegerot/katherinegerot.github.io/new/master#acareaexheadersearch)
-3. [$AC:AREAEX:HeaderImageBegin$](https://github.com/katherinegerot/katherinegerot.github.io/new/master#acareaexheaderimagebegin)
+1. [$LC:ISLOGGEDINAREA:Generic Member Area:Generic Login Link-Button$](https://github.com/katherinegerot/katherinegerot.github.io/blob/master/info/reference.md#lcisloggedinareageneric-member-areageneric-login-link-button)
+2. [$AC:AREAEX:HeaderSearch$](https://github.com/katherinegerot/katherinegerot.github.io/blob/master/info/reference.md#acareaexheadersearch)
+3. [$AC:AREAEX:HeaderImageBegin$](https://github.com/katherinegerot/katherinegerot.github.io/blob/master/info/reference.md#acmenutrueul-tnsfli1li2li2li2ule-sf)
 4. [$AC:MENU::TRUE:ul-TNSF:li1:li2:li2:li2:ulE-SF](https://github.com/katherinegerot/katherinegerot.github.io/new/master#acmenutrueul-tnsfli1li2li2li2ule-sf)
-5. [$AC:AREAEX:Footer$](https://github.com/katherinegerot/katherinegerot.github.io/new/master#acareaexfooter)
-6. [$AC:AREAEX:Footer Scripts$](https://github.com/katherinegerot/katherinegerot.github.io/new/master#acareaexfooter-scripts)
-7. [$AC:AREAEX:Home Banner PLC$]()
+5. [$AC:AREAEX:Footer$](https://github.com/katherinegerot/katherinegerot.github.io/blob/master/info/reference.md#acareaexfooter)
+6. [$AC:AREAEX:Footer Scripts$](https://github.com/katherinegerot/katherinegerot.github.io/blob/master/info/reference.md#acareaexfooter-scripts)
+7. [$AC:AREAEX:Home Banner PLC$](https://github.com/katherinegerot/katherinegerot.github.io/blob/master/info/reference.md#acareaexhome-banner-plc)
 
 ## $LC:ISLOGGEDINAREA:Generic Member Area:Generic Login Link-Button$
 
