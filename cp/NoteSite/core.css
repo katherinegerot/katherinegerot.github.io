@@ -763,6 +763,95 @@ body {
 	border-left-color:#0b0f15!important;
 }
 
+/* All Around Borders */
+
+.b-0 {
+	border-width:0;
+}
+.b-1 {
+	border-width:1px;
+}
+.b-2 {
+	border-width:2px;
+}
+.b-3 {
+	border-width:3px;
+}
+
+/* Border Top */
+
+.b-t-0 {
+	border-top-width:0;
+}
+.b-t-1 {
+	border-top-width:1px;
+}
+.b-t-2 {
+	border-top-width:2px;
+}
+.b-t-3 {
+	border-top-width:3px;
+}
+
+/* Border Bottom */
+
+.b-b-0 {
+	border-bottom-width:0;
+}
+.b-b-1 {
+	border-bottom-width:1px;
+}
+.b-b-2 {
+	border-bottom-width:2px;
+}
+.b-b-3 {
+	border-bottom-width:3px;
+}
+
+/* Border Right */
+
+.b-r-0 {
+	border-right-width:0;
+}
+.b-r-1 {
+	border-right-width:1px;
+}
+.b-r-2 {
+	border-right-width:2px;
+}
+.b-r-3 {
+	border-right-width:3px;
+}
+
+/* Border Left */
+
+.b-l-0 {
+	border-left-width:0;
+}
+.b-l-1 {
+	border-left-width:1px;
+}
+.b-l-2 {
+	border-left-width:2px;
+}
+.b-l-3 {
+	border-left-width:3px;
+}
+
+/* Border Styles */
+
+.b-solid {
+	border-style:solid;
+}
+
+.circle {
+	border-radius:50%;
+}
+
+.rounded {
+	border-radius:20%
+}
+
 /* Z index */
 
 .z-0 {
