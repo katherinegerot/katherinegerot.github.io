@@ -14,6 +14,19 @@ body {
 	overflow-x:hidden;
 }
 
+a {
+	color: #6279aa;
+}
+
+a:visited, a:hover {
+	color: #334d7b;
+}
+
+nav a {
+	text-decoration:none;
+	
+}
+
 /* 1-1 Wrapper and Bleed */
 
 .bleed {
