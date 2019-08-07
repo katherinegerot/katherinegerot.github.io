@@ -844,6 +844,24 @@ body {
 	border-style:solid;
 }
 
+.b-t-solid {
+	border-top-style:solid;
+}
+
+.b-b-solid {
+	border-bottom-style:solid;
+}
+
+.b-r-solid {
+	border-right-style:solid;
+}
+
+.b-l-solid {
+	border-left-style:solid;
+}
+
+/* Border Shaping */
+
 .circle {
 	border-radius:50%;
 }
