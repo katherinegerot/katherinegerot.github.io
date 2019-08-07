@@ -22,9 +22,13 @@ a:visited, a:hover {
 	color: #334d7b;
 }
 
-nav a {
+nav p {
 	text-decoration:none;
 	
+}
+
+.nav-hover:hover {
+	color: #f4f6f9;
 }
 
 /* 1-1 Wrapper and Bleed */
