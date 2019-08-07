@@ -12,6 +12,13 @@ body {
 	background-color:#e9ecf3;
 	margin:0;
 	overflow-x:hidden;
+	font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif; 
+}
+
+h1 {
+	font-style:bold;
+	color:#334d7b;
+	font-size:2.37em;
 }
 
 p { 
