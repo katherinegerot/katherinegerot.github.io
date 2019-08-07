@@ -599,47 +599,48 @@ nav a {
 		-ms-grid-columns: (1fr)[4];
 		grid-template-columns: repeat(4, 1fr);
 	}
-	.fifths > * {
+	
+	.fifths{
 		-ms-grid-columns: (1fr)[5];
 		grid-template-columns: repeat(5, 1fr);
 	}
 
-	.sixths > * {
+	.sixths{
 		-ms-grid-columns: (1fr)[6];
 		grid-template-columns: repeat(6, 1fr);
 	}
 
-	.eighths > * {
+	.eighths{
 		-ms-grid-columns: (1fr)[8];
 		grid-template-columns: repeat(8, 1fr);
 	}
 	
 	@media only screen and (min-width:56.12em) {
-		.single\@md > * {
+		.single\@md  {
 			-ms-grid-columns: 1fr;
 			grid-template-columns: 1fr;
 		}
-		.halves\@md > * {
+		.halves\@md {
 			-ms-grid-columns: (1fr)[2];
 			grid-template-columns: repeat(2, 1fr);
 		}
-		.thirds\@md > * {
+		.thirds\@md {
 			-ms-grid-columns: (1fr)[3];
 			grid-template-columns: repeat(3, 1fr);
 		}
-		.fourths\@md > * {
+		.fourths\@md {
 			-ms-grid-columns: (1fr)[4];
 			grid-template-columns: repeat(4, 1fr);
 		}
-		.fifths\@md > * {
+		.fifths\@md {
 			-ms-grid-columns: (1fr)[5];
 			grid-template-columns: repeat(5, 1fr);
 		}
-		.sixths\@md > * {
+		.sixths\@md {
 			-ms-grid-columns: (1fr)[6];
 			grid-template-columns: repeat(6, 1fr);
 		}
-		.eighths\@md > * {
+		.eighths\@md{
 			-ms-grid-columns: (1fr)[8];
 			grid-template-columns: repeat(8, 1fr);
 		}
