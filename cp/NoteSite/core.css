@@ -1,12 +1,20 @@
 @charset "UTF-8";
 
+
 html {
 	line-height: 1.15;
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%
 }
 
-/* Wrapper and Bleed */
+body {
+	color:#0b0f15;
+	background-color:#ffffff;
+	margin:0;
+	overflow-x:hidden;
+}
+
+/* 1-1 Wrapper and Bleed */
 
 .bleed {
 	left:50%;
@@ -18,8 +26,22 @@ html {
 }
 
 .wrapper {
-	padding-left:5.62vw;
-	padding-right:5.62vw;
+	padding-left:7.5vw;
+	padding-right:7.5vw;
+}
+
+/* Positions */
+
+.pos-relative {
+	position:relative!important;
+}
+
+.pos-absolute {
+	position:absolute!important;
+}
+
+.pos-absolute {
+	position:
 }
 
 /* All Around Padding */
@@ -741,6 +763,16 @@ html {
 	border-left-color:#0b0f15!important;
 }
 
+/* Z index */
 
+.z-0 {
+	z-index:0;
+}
+.z-10 {
+	z-index:10;
+}
+.z-20 {
+	z-index:20;
+}
 
 
