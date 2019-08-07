@@ -573,7 +573,9 @@ nav a {
 
 @supports ((display:-ms-grid) or (display:grid)) {
 	.grid, .single, .halves, .thirds, .fourths,
-	.single\@md, .halves\@md, .thirds\@md, .fourths\@md {
+	.fifths, .sixths, .eighths,
+	.single\@md, .halves\@md, .thirds\@md, .fourths\@md,
+	.fifths\@md, .sixths\@md, .eighths\@md	{
 		display: -ms-grid;
 		display: grid;
 	}
