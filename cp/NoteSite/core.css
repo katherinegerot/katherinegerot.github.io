@@ -19,7 +19,7 @@ p {
 }
 
 a {
-	color: #6279aa;
+	color:#6279aa;
 }
 
 a:visited, a:hover {
@@ -28,12 +28,14 @@ a:visited, a:hover {
 
 nav p {
 	text-decoration:none;
-	
+	color:#6279aa;
 }
 
 .nav-hover:hover {
-	color: #f4f6f9;
+	background-color: #f4f6f9;
 }
+
+
 
 /* 1-1 Wrapper and Bleed */
 
