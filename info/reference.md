@@ -118,62 +118,60 @@ Any areas I used and their corresponding 5.0 code
 ## $AC:MENU::TRUE:ul-TNSF:li1:li2:li2:li2:ulE-SF$ 
 
 ```
-<button class="dcf-nav-toggle-btn dcf-nav-toggle-btn-menu dcf-flex-shrink-0 dcf-ai-center dcf-w-9 dcf-p-0 dcf-b-0 dcf-bg-transparent dcf-txt-xs unl-cream" id="dcf-menu-toggle" hidden>
-	<svg class="dcf-h-5 dcf-w-5 dcf-fill-current" aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 48 48">
-		<g>
-			<path d="M45.5 22.5h-43c-.8 0-1.5.7-1.5 1.5s.7 1.5 1.5 1.5h43c.8 0 1.5-.7 1.5-1.5s-.7-1.5-1.5-1.5zM45.5 7.5h-43C1.7 7.5 1 8.2 1 9s.7 1.5 1.5 1.5h43c.8 0 1.5-.7 1.5-1.5s-.7-1.5-1.5-1.5zM45.5 37.5h-43c-.8 0-1.5.7-1.5 1.5s.7 1.5 1.5 1.5h43c.8 0 1.5-.7 1.5-1.5s-.7-1.5-1.5-1.5z"/>
-		</g>
-		<g class="dcf-d-none">
-			<path d="M38.1 7.7L7.7 38.1c-.6.6-.6 1.5 0 2.1.6.6 1.5.6 2.1 0L40.3 9.9c.6-.6.6-1.5 0-2.1-.6-.6-1.6-.6-2.2-.1z"/>
-			<path d="M7.7 7.7c-.6.6-.6 1.5 0 2.1l30.4 30.4c.6.6 1.5.6 2.1 0 .6-.6.6-1.5 0-2.1L9.9 7.7c-.6-.5-1.6-.5-2.2 0z"/>
-		</g>
-	</svg>
-</button>
-
-<div id="dcf-nav-menu-child" class="dcf-nav-menu-child dcf-nav-local dcf-w-100%">
-	<ul>
-		<li class="first expanded">
-			<a href="#" title="">Home</a>
-			<ul>
-				<li class="first leaf"><a href="#" title="">About Us</a></li>
-				<li class="leaf"><a href="#" title="">Map and Directions</a></li>
-				<li class="last leaf"><a href="#" title="">Calendar</a></li>
-			</ul>
-		</li>
-		<li class="expanded">
-			<a href="#" title="">Training</a>
-			<ul>
-				<li class="first leaf"><a href="#" title="">Course Policies</a></li>
-				<li class="leaf"><a href="#" title="">Workforce Development Reimbursement Program</a></li>
-				<li class="leaf"><a href="#">Tailgate Talks</a></li>
-				<li class="last leaf"><a href="/certification-search">Certification Search</a></li>
-			</ul>
-		</li>
-		<li class="expanded">
-			<a href="#" title="">Events</a>
-			<ul>
-				<li class="first leaf"><a href="#" title="">Archives</a></li>
-				<li class="last leaf"><a href="#">Build A Better Mousetrap</a></li>
-			</ul>
-		</li>
-		<li class="expanded">
-			<a href="#" title="">Technical Assistance</a>
-			<ul>
-				<li class="first leaf"><a href="#" title="">Loan Program</a></li>
-				<li class="leaf"><a href="#" title="">External Links</a></li>
-				<li class="last leaf"><a href="#">Nebraska Department of Transportation</a></li>
-			</ul>
-		</li>
-		<li class="expanded">
-			<a href="#" title="">Connect With Us</a>
-			<ul>
-				<li class="first leaf"><a href="#" title="">Staff</a></li>
-				<li class="leaf"><a href="#" title="">Advisory Board</a></li>
-				<li class="last leaf"><a href="#">Contact Us</a></li>
-			</ul>
-		</li>
-	</ul>
-</div>
+<nav class="dcf-nav-menu dcf-modal-parent unl-font-sans dcf-d-none@print" id="dcf-navigation" role="navigation" aria-label="local navigation">
+	<button class="dcf-nav-toggle-btn dcf-nav-toggle-btn-menu dcf-flex-shrink-0 dcf-ai-center dcf-w-9 dcf-p-0 dcf-b-0 dcf-bg-transparent dcf-txt-xs unl-cream" id="dcf-menu-toggle" hidden>
+		<svg class="dcf-h-5 dcf-w-5 dcf-fill-current" aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 48 48">
+			<g>
+				<path d="M45.5 22.5h-43c-.8 0-1.5.7-1.5 1.5s.7 1.5 1.5 1.5h43c.8 0 1.5-.7 1.5-1.5s-.7-1.5-1.5-1.5zM45.5 7.5h-43C1.7 7.5 1 8.2 1 9s.7 1.5 1.5 1.5h43c.8 0 1.5-.7 1.5-1.5s-.7-1.5-1.5-1.5zM45.5 37.5h-43c-.8 0-1.5.7-1.5 1.5s.7 1.5 1.5 1.5h43c.8 0 1.5-.7 1.5-1.5s-.7-1.5-1.5-1.5z"/>
+			</g>
+			<g class="dcf-d-none">
+				<path d="M38.1 7.7L7.7 38.1c-.6.6-.6 1.5 0 2.1.6.6 1.5.6 2.1 0L40.3 9.9c.6-.6.6-1.5 0-2.1-.6-.6-1.6-.6-2.2-.1z"/>
+				<path d="M7.7 7.7c-.6.6-.6 1.5 0 2.1l30.4 30.4c.6.6 1.5.6 2.1 0 .6-.6.6-1.5 0-2.1L9.9 7.7c-.6-.5-1.6-.5-2.2 0z"/>
+			</g>
+		</svg>
+	</button>
+	<div id="dcf-nav-menu-child" class="dcf-nav-menu-child dcf-nav-local dcf-w-100%">
+		<ul>
+			<li class="first expanded">
+				<a href="#" title="">Home</a>
+				<ul>
+					<li class="first leaf"><a href="#" title="">About Us</a></li>
+					<li class="leaf"><a href="#" title="">Map and Directions</a></li>
+					<li class="last leaf"><a href="#" title="">Calendar</a></li>
+					<li class="first leaf"><a href="/staff" title="">Staff</a></li>
+					<li class="leaf"><a href="#" title="">Advisory Board</a></li>
+				</ul>
+			</li>
+			<li class="expanded">
+				<a href="#" title="">Training</a>
+				<ul>
+					<li class="first leaf"><a href="#" title="">Course Policies</a></li>
+					<li class="leaf"><a href="#" title="">Workforce Development Reimbursement Program</a></li>
+					<li class="leaf"><a href="#">Tailgate Talks</a></li>
+					<li class="last leaf"><a href="#">Certification Search</a></li>
+				</ul>
+			</li>
+			<li class="expanded">
+				<a href="#" title="">Events</a>
+				<ul>
+					<li class="first leaf"><a href="#" title="">Archives</a></li>
+					<li class="last leaf"><a href="#">Build A Better Mousetrap</a></li>
+				</ul>
+			</li>
+			<li class="expanded">
+				<a href="#" title="">Technical Assistance</a>
+				<ul>
+					<li class="first leaf"><a href="#" title="">Loan Program</a></li>
+					<li class="leaf"><a href="#" title="">External Links</a></li>
+					<li class="last leaf"><a href="#">Nebraska Department of Transportation</a></li>
+				</ul>
+			</li>
+			<li class="expanded">
+				<a href="#" title="">Connect With Us</a>
+			</li>
+		</ul>
+	</div>
+</nav>
 ```
 
 ## $AC:AREAEX:Footer$
@@ -376,11 +374,13 @@ Any areas I used and their corresponding 5.0 code
 </script>
 <div id="wdn_Carousel" class="flexslider">
 	<ul class="slides">
+		<!-- Slide 1 -->
 		<li>
 			<figure>
-				<div class="content" style="height:500px;background-image:url('/images/flood.png');background-size:cover;background-position: center center;">
-					<div class="dcf-wrapper dcf-p-6">
-						<section class="dcf-grid-halves">
+				<div class="content" style="height:600px;background-image:url('/images/flood.png');background-size:cover;background-position: center center;">
+					<div class="dcf-wrapper dcf-pt-6">
+						<section class="dcf-grid-halves@md">
+							<!-- Column 1 -->
 							<div style="background-color:rgba(36, 36, 35, .75);" class="dcf-p-4">
 								<h2 class="clear-top dcf-txt-h1 dcf-mt-0 dcf-mb-1 unl-cream">Nebraska Flood Resource</h2>
 								<div>
@@ -390,6 +390,7 @@ Any areas I used and their corresponding 5.0 code
 									<a href="https://ltap.unl.edu/flood-resources-nebraska-lpas-0" class="dcf-btn dcf-btn-primary">Resources</a>
 								</div>
 							</div>
+							<!-- Column 2 -->
 							<div>
 								&nbsp;
 							</div>
@@ -398,14 +399,17 @@ Any areas I used and their corresponding 5.0 code
 				</div>
 			</figure>
 		</li>
+		<!-- Slide 2 -->
 		<li>
 			<figure>
-				<div class="content" style="height:500px;background-image:url('/images/flood.png');background-size:cover;background-position: center center;">
-					<div class="dcf-wrapper dcf-p-6">
-						<section class="dcf-grid-halves">
+				<div class="content" style="height:600px;background-image:url('/images/flood.png');background-size:cover;background-position: center center;">
+					<div class="dcf-wrapper dcf-pt-6">
+						<section class="dcf-grid-halves@md">
+							<!-- Column 1 -->
 							<div>
 								&nbsp;
 							</div>
+							<!-- Column 2 -->
 							<div style="background-color:rgba(36, 36, 35, .75);" class="dcf-p-4">
 								<h2 class="clear-top dcf-txt-h1 dcf-mt-0 dcf-mb-1 unl-cream">Nebraska Flood Resource</h2>
 								<div>
@@ -420,11 +424,13 @@ Any areas I used and their corresponding 5.0 code
 				</div>
 			</figure>
 		</li>
+		<!-- Slide 3 -->
 		<li>
 			<figure>
-				<div class="content" style="height:500px;background-image:url('/images/flood.png');background-size:cover;background-position: center center;">
-					<div class="dcf-wrapper dcf-p-6">
-						<section class="dcf-grid-halves">
+				<div class="content" style="height:600px;background-image:url('/images/flood.png');background-size:cover;background-position: center center;">
+					<div class="dcf-wrapper dcf-pt-6">
+						<section class="dcf-grid-halves@md">
+							<!-- Column 1 -->
 							<div style="background-color:rgba(36, 36, 35, .75);" class="dcf-p-4">
 								<h2 class="clear-top dcf-txt-h1 dcf-mt-0 dcf-mb-1 unl-cream">Nebraska Flood Resource</h2>
 								<div>
@@ -434,6 +440,7 @@ Any areas I used and their corresponding 5.0 code
 									<a href="https://ltap.unl.edu/flood-resources-nebraska-lpas-0" class="dcf-btn dcf-btn-primary">Resources</a>
 								</div>
 							</div>
+							<!-- Column 2 -->
 							<div>
 								&nbsp;
 							</div>
@@ -442,14 +449,17 @@ Any areas I used and their corresponding 5.0 code
 				</div>
 			</figure>
 		</li>
+		<!-- Slide 4 -->
 		<li>
 			<figure>
-				<div class="content" style="height:500px;background-image:url('/images/flood.png');background-size:cover;background-position: center center;">
-					<div class="dcf-wrapper dcf-p-6">
-						<section class="dcf-grid-halves">
+				<div class="content" style="height:600px;background-image:url('/images/flood.png');background-size:cover;background-position: center center;">
+					<div class="dcf-wrapper dcf-pt-6">
+						<section class="dcf-grid-halves@md">
+							<!-- Column 1 -->
 							<div>
 								&nbsp;
 							</div>
+							<!-- Column 2 -->
 							<div style="background-color:rgba(36, 36, 35, .75);" class="dcf-p-4">
 								<h2 class="clear-top dcf-txt-h1 dcf-mt-0 dcf-mb-1 unl-cream">Nebraska Flood Resource</h2>
 								<div>
