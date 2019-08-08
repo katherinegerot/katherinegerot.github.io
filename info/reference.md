@@ -376,11 +376,13 @@ Any areas I used and their corresponding 5.0 code
 </script>
 <div id="wdn_Carousel" class="flexslider">
 	<ul class="slides">
+		<!-- Slide 1 -->
 		<li>
 			<figure>
-				<div class="content" style="height:500px;background-image:url('/images/flood.png');background-size:cover;background-position: center center;">
-					<div class="dcf-wrapper dcf-p-6">
-						<section class="dcf-grid-halves">
+				<div class="content" style="height:600px;background-image:url('/images/flood.png');background-size:cover;background-position: center center;">
+					<div class="dcf-wrapper dcf-pt-6">
+						<section class="dcf-grid-halves@md">
+							<!-- Column 1 -->
 							<div style="background-color:rgba(36, 36, 35, .75);" class="dcf-p-4">
 								<h2 class="clear-top dcf-txt-h1 dcf-mt-0 dcf-mb-1 unl-cream">Nebraska Flood Resource</h2>
 								<div>
@@ -390,6 +392,7 @@ Any areas I used and their corresponding 5.0 code
 									<a href="https://ltap.unl.edu/flood-resources-nebraska-lpas-0" class="dcf-btn dcf-btn-primary">Resources</a>
 								</div>
 							</div>
+							<!-- Column 2 -->
 							<div>
 								&nbsp;
 							</div>
@@ -398,14 +401,17 @@ Any areas I used and their corresponding 5.0 code
 				</div>
 			</figure>
 		</li>
+		<!-- Slide 2 -->
 		<li>
 			<figure>
-				<div class="content" style="height:500px;background-image:url('/images/flood.png');background-size:cover;background-position: center center;">
-					<div class="dcf-wrapper dcf-p-6">
-						<section class="dcf-grid-halves">
+				<div class="content" style="height:600px;background-image:url('/images/flood.png');background-size:cover;background-position: center center;">
+					<div class="dcf-wrapper dcf-pt-6">
+						<section class="dcf-grid-halves@md">
+							<!-- Column 1 -->
 							<div>
 								&nbsp;
 							</div>
+							<!-- Column 2 -->
 							<div style="background-color:rgba(36, 36, 35, .75);" class="dcf-p-4">
 								<h2 class="clear-top dcf-txt-h1 dcf-mt-0 dcf-mb-1 unl-cream">Nebraska Flood Resource</h2>
 								<div>
@@ -420,11 +426,13 @@ Any areas I used and their corresponding 5.0 code
 				</div>
 			</figure>
 		</li>
+		<!-- Slide 3 -->
 		<li>
 			<figure>
-				<div class="content" style="height:500px;background-image:url('/images/flood.png');background-size:cover;background-position: center center;">
-					<div class="dcf-wrapper dcf-p-6">
-						<section class="dcf-grid-halves">
+				<div class="content" style="height:600px;background-image:url('/images/flood.png');background-size:cover;background-position: center center;">
+					<div class="dcf-wrapper dcf-pt-6">
+						<section class="dcf-grid-halves@md">
+							<!-- Column 1 -->
 							<div style="background-color:rgba(36, 36, 35, .75);" class="dcf-p-4">
 								<h2 class="clear-top dcf-txt-h1 dcf-mt-0 dcf-mb-1 unl-cream">Nebraska Flood Resource</h2>
 								<div>
@@ -434,6 +442,7 @@ Any areas I used and their corresponding 5.0 code
 									<a href="https://ltap.unl.edu/flood-resources-nebraska-lpas-0" class="dcf-btn dcf-btn-primary">Resources</a>
 								</div>
 							</div>
+							<!-- Column 2 -->
 							<div>
 								&nbsp;
 							</div>
@@ -442,14 +451,17 @@ Any areas I used and their corresponding 5.0 code
 				</div>
 			</figure>
 		</li>
+		<!-- Slide 4 -->
 		<li>
 			<figure>
-				<div class="content" style="height:500px;background-image:url('/images/flood.png');background-size:cover;background-position: center center;">
-					<div class="dcf-wrapper dcf-p-6">
-						<section class="dcf-grid-halves">
+				<div class="content" style="height:600px;background-image:url('/images/flood.png');background-size:cover;background-position: center center;">
+					<div class="dcf-wrapper dcf-pt-6">
+						<section class="dcf-grid-halves@md">
+							<!-- Column 1 -->
 							<div>
 								&nbsp;
 							</div>
+							<!-- Column 2 -->
 							<div style="background-color:rgba(36, 36, 35, .75);" class="dcf-p-4">
 								<h2 class="clear-top dcf-txt-h1 dcf-mt-0 dcf-mb-1 unl-cream">Nebraska Flood Resource</h2>
 								<div>
